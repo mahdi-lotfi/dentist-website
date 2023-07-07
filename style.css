@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #111;
-    color: #fff;
+    background-color: #fff;
+    color: #111;
 }
 
 .container {
@@ -20,14 +20,9 @@ a {
     color: #111;
 }
 
-header {
-    background-color: #80808024;
-
-}
-
 nav {
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
 }
 
@@ -35,14 +30,14 @@ ul {
     display: flex;
     list-style-type: none;
     margin-bottom: 0;
-    color: #fff;
+    color: #111;
+    padding-left: 0;
 }
 
 
 
-li, .logo {
-    padding: 20px;
-    margin: 10px;
+li {
+    padding: 20px 50px;
 
 }
 
@@ -50,7 +45,7 @@ li, .logo {
 li a {
     font-size: 20px;
     transition: .3s;
-    color: #fff;
+    color: #111;
 }
 
 li a:hover {
@@ -79,11 +74,7 @@ span {
 
     background-image: url(./assets/images/home-bg.jpg);
     background-repeat: no-repeat;
-    height: 40rem;
-    padding: 100px;
-
-
-
+    height: 700px;
 }
 
 
@@ -102,6 +93,7 @@ span {
 
 .section-1 .container .text {
     width: 50%;
+    padding-top: 250px;
 }
 
 .section-1 .container .text h1 {
@@ -126,6 +118,7 @@ span {
 
 .btn:hover {
     background-color: #111;
+    color: #fff;
 }
 
 
@@ -171,13 +164,13 @@ span {
 }
 
 .section-3 {
-
+   background-color: #e1e1e1;
     padding: 2rem 0;
     color: #111;
 }
 
 .section-3 .container h1 {
-    color: #fff;
+    color: #111;
 }
 
 .section-3 .container h3 {
@@ -205,6 +198,7 @@ span {
 
 .box {
     padding: 15px;
+
 }
 
 .box h2 {
@@ -221,22 +215,28 @@ span {
 }
 
 .section-5 .container h1 {
-    padding: 30PX 10px;
+    padding: 30px 10px;
 }
 
-.section-6 {
+/* .section-5 col img{
+    border-radius: 50%;
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+} */
+footer {
     margin-top: 100px;
 }
 
-.section6-container {
-    color: #fff;
+.footer-container {
+
     display: flex;
     gap: 80px;
     justify-content: center;
     border-bottom: 2px solid #e1e1e1;
 }
 
-.section-6 .icon {
+footer .icon {
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -244,16 +244,17 @@ span {
     background-color: #00b8b8;
 }
 
-.section-6 .icon i {
+footer .icon i {
     font-size: 30px;
     padding-top: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
 }
 
 .end {
-    color: #fff;
+    color: #111;
     display: flex;
     align-items: center;
     justify-content: center;
