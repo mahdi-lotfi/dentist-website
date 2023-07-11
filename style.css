@@ -162,23 +162,6 @@ span {
 
 
 }
-
-@media (max-width:991px) {
-    .section-2 .container {
-        flex-direction: column;
-        justify-content: center;
-    }
-    .section-2 .container img{
-        width: auto;
-    }
-    .section-2 .container .text {
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
 .section-3 {
     background-color: #e1e1e1;
     padding: 2rem 0;
@@ -233,22 +216,13 @@ span {
     padding: 30px 10px;
 }
 
+.section-5 .card-title{
+    line-height: 30px;
+}
 .section-5 .card img{
     border-radius: 50%;
     margin: 30px auto;
     width: 100px;
-}
-.section-5 .card-title{
-    line-height: 30px;
-}
-@media (max-width:1024px) {
-    .section-5 .container .row{
-        flex-direction: column;
-        display: flex;
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
-    }
 }
 footer {
     margin-top: 100px;
@@ -290,6 +264,35 @@ footer .icon i {
 .end span {
     padding-left: 10px;
 }
+/* } section 2  */
+@media (max-width:991px) {
+    .section-2 .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-2 .container img{
+        width: auto;
+    }
+    .section-2 .container .text {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/*  section 5 */
+@media (max-width:1024px) {
+    .section-5 .container .row{
+        flex-direction: column;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+} 
+
+/* section footer  */
+
 @media (max-width:991px) {
     footer .container{
     flex-direction: column;
